@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacé tu pedido</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="shortcut icon" href="../assets/logo/favicon.png">
+    <link rel="stylesheet" href="../css/haceTuPedido.css">
+</head>
+
+<body>
+    <div id="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <nav class="navbar bg-body-tertiary">
+                    <div class="container">
+                      <a class="navbar-brand" href="../index.html">
+                        <img src="../assets/logo/logo.png" alt="logo" width="120px">
+                      </a>
+                    </div>
+                  </nav>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="pages\haceTuPedido.html">Hacé tu pedido</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html#cuidaTuSaludTitulo">Cuidá tu salud</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html#quienesSomosMenu">Quienes somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html#tituloContacto">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>   
+
+        <aside>
+            <img id=portada src="../assets/portada/portada2.png" alt="Portada">
+            <!--acá iria un carrete-->
+        </aside>
+
+        <article>
+
+            <div id="dondePedirClass">
+                <h2 id="dondePedirTitulo">Hacé tu pedido</h2>
+                    <a href="https://www.farmaonline.com/"><img id="farmaonline" src="../assets/haceTuPedido/farmaonline.png" alt="farmaonline"/></a>
+                    <a href="https://gpsfarma.com/"><img id="gps" src="../assets/haceTuPedido/gpsfarma.png" alt="gpsfarma"/></a>
+            </div>
+
+            <div id="comoPedirlo">
+                <h3 id="comoPedirTitulo">Como pedir</h3>
+                <ol id="pasos">
+                    <li>Buscá tu producto en alguna de las plataformas</li>
+                    <li>Pedilo y seleccioná Farmacia Perotti Ricardi para retirarlo</li>
+                    <li>Esperá la notificación</li>
+                    <li>¡Vení a buscarlo!</li>
+                </ol>
+            </div>
+        </article>
+
+            <div>
+                <h3 id="tituloContacto">CONTACTO</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13680.576030844928!2d-62.8248086!3d-30.9943615!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94349d667646e223%3A0x6eb2577ebad97ef4!2sFarmacia%20Perotti%20Ricardi!5e0!3m2!1ses-419!2sar!4v1693149061436!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+                <p id="direccion"><span>Sarmiento 146, Marull, Córdoba     |     Tel: 3563-492253</span></p>
+                    <form id="formulario" action="#" method="get">
+                        <input type="text" name="Nombre" placeholder="Nombre completo" required>
+                        <input type="email" placeholder="Email" required>
+                        <input type="submit" value="Enviar"><br>
+                        <textarea name="Comentario" cols="30" rows="5" placeholder="Comentarios"></textarea>
+            </div>
+        </div>
+
+        <footer>
+            <p>Marull, Córdoba, Argentina</p>
+            <p>© 2023FarmaciaPerottiRicardi</p>
+        </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

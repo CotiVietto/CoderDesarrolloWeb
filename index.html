@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmacia Perotti Ricardi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="shortcut icon" href="assets\logo\favicon.png">
+    <link rel="stylesheet" href="css\index.css">
+
+</head>
+
+
+<body>
+
+    <div id="container">
+    
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <nav class="navbar bg-body-tertiary">
+                    <div class="container">
+                      <a class="navbar-brand" href="index.html">
+                        <img src="assets\logo\logo.png" alt="logo" width="120px">
+                      </a>
+                    </div>
+                  </nav>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="pages\haceTuPedido.html">Hacé tu pedido</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html#cuidaTuSaludTitulo">Cuidá tu salud</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html#quienesSomosMenu">Quienes somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html#tituloContacto">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+          
+
+        <aside>
+            <img id=portada src="assets\portada\portada1.png" alt="Portada">
+            <!--acá iria un carrete de imagenes-->
+        </aside>
+
+        <article>
+            <div class="haceTuPedido">
+                <a id="haceTuPedidoImagen" href="pages\hacetupedido.html"> <img  src="assets\index\hacetupedido.png" alt="hacetupedido"/> </a>
+                <p id="haceTuPedidoTitulo"> Pedí lo que necesitas y retirá en <strong>nuestra farmacia!</strong></p>
+            </div>
+
+            <div id="marcasTitulo"><h2>Algunas de nuestras marcas</h2>
+                <table>
+                <!--acá iria un carrete de imagenes-->
+                </table>
+            </diV>
+
+            <div class="cuidaTuSalud">
+                <h2 id="cuidaTuSaludTitulo">Información para el cuidado de tu salud</h2>
+                    <table id="cuidaTuSaludTabla">
+                    <tr>
+                    <td><img class="imagenCuidaTuSalud" src="assets\index\skincare1.png"/></td>
+                    <td><a class="linkCuidaTuSalud" href="pages\skincare.html">Skincare </a> </td>
+                    <td claas="tips">¿Sabias que para tener una piel sana es muy importante el protector solar? Acá encontrás más info para el cuidado de tu piel.</td>
+
+                    <td><img class="imagenCuidaTuSalud" src="assets\index\ojoseco1.png"></td>
+                    <td><a class="linkCuidaTuSalud" href="pages\ojoSeco.html"> Seco</a></td>
+                    <td claas="tips">El síndrome del ojo seco ocurre cuando los ojos no producen suficientes lágrimas para mantenerse húmedos o cuando las lágrimas no cumplen correctamente su función. Esto puede hacer que sienta incomodidad en los ojos y, en algunos casos, también puede causar problemas de visión. El ojo seco es común.</td>
+
+                    <td><img class="imagenCuidaTuSalud" src="assets\index\covid1.png"></td>
+                    <td class="linkCuidaTuSalud">Covid 19</td>
+                    <td claas="tips">Entrá y lee nuestras recomendaciones para el Covid19.</td>
+
+                    </tr>
+                </table>
+            </diV>
+        
+            <div class="quienesSomos" id="quienesSomosMenu">
+                <h2>Al cuidado de su salud...</h2>
+                    <table id="quienesSomosMenuTabla">
+                    <tr>
+                        <td>Compromiso</td>
+                        <td><img class="valor" src="assets\valores\valor1.png"></td>
+                        <td>Atención personalizada</td>
+                        <td><img class="valor" src="assets\valores\valor2.png"></td>
+                        <td>Profesionalismo</td>
+                        <td><img class="valor" src="assets\valores\valor3.png"></td>
+                    </tr>
+                    </table>
+            </div>    
+        
+            <div>
+                <h3 id="tituloContacto">CONTACTO</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13680.576030844928!2d-62.8248086!3d-30.9943615!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94349d667646e223%3A0x6eb2577ebad97ef4!2sFarmacia%20Perotti%20Ricardi!5e0!3m2!1ses-419!2sar!4v1693149061436!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+                <p class="direccion"><span>Sarmiento 146, Marull, Córdoba</span></p>
+                <p class="direccion"><span>Tel: 3563-492253</span></p>
+                    <form id="formulario" action="#" method="get">
+                        <input type="text" name="Nombre" placeholder="Nombre completo" required>
+                        <input type="email" placeholder="Email" required>
+                        <input type="submit" value="Enviar"><br>
+                        <textarea name="Comentario" cols="30" rows="5" placeholder="Comentarios"></textarea>
+            </div>
+        
+        </article>
+        
+        <footer>
+            <p>Marull, Córdoba, Argentina</p>
+            <p>© 2023FarmaciaPerottiRicardi</p>
+        </footer>
+        
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>

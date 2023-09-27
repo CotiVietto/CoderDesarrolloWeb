@@ -1,0 +1,251 @@
+@font-face {
+    font-family: "Quicksand"; 
+    src: url("../assets/Fonts/Quicksand-VariableFont_wght.ttf");
+}
+
+* {
+    font-family: Quicksand;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+#logo {
+  width: 20px;
+}
+
+aside img {
+  width: 100%;
+}
+
+.haceTuPedido {
+  width: 100%;
+  height: 150px;
+}
+
+.haceTuPedido img {
+    width: 120px;
+    height: 130px;
+    padding-top: 25px;
+    display: flex;
+    position: absolute;
+    padding-left: 20px;
+}
+
+#haceTuPedidoTitulo {
+  position: absolute;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  font-style: oblique;
+  padding-left: 150px;
+  padding-right: 35px;
+  padding-top: 40px;
+}
+
+#marcasTitulo {
+  width: 100%;
+  height: 90px;
+  background-color: #56c27181;
+  padding-top: 10px;
+  font-size: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+#cuidaTuSaludTitulo {
+  color: #ffffff;
+  font-size: 13px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  background-color: #0081a6;
+  font-weight:1100;
+}
+
+.imagenCuidaTuSalud {
+  border-radius: 2%;
+  width: 70%;
+}
+
+.linkCuidaTuSalud {
+  font-size: 12px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 800;
+}
+
+.quienesSomos {
+  padding-left: 35px;
+  width: 100%;
+}
+
+#quienesSomosMenu {
+  background-image: url(/assets/back.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#quienesSomosMenuTabla {
+  font-weight: 700;
+}
+
+.valor {
+  width: 30x;
+  height: 30px;
+  border-radius: 100%;
+}
+
+#tituloContacto {
+  padding-left: 35px;
+  padding-top: 20px;
+  color: #333;
+  font-size:medium;
+}
+
+iframe {
+  width: 90%;
+  height: 200px;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+form {
+  width: 60px;
+  height: 200px;
+  padding-left: 35px;
+  padding-top: 20px;
+}
+
+.direccion {
+  font-size: small;
+  padding-left: 35px;
+  padding-top: 20px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #b9b9b9;
+  font-size: 8px;
+  height: 80px;
+}
+
+table {
+  width: 100%}
+
+table tr {
+  width: 100%;
+  display: flex;
+  flex-direction:column;
+  border: 1px;
+  padding-left: 5px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+@media (min-width: 768px) {
+
+  nav {
+    font-size: 18px;
+  }
+
+  #quienesSomosMenuTabla {
+    display: flex;
+    flex-flow: row;
+  }
+
+  #haceTuPedidoTitulo {
+    font-size: 22px;
+  }
+
+  .haceTupedido {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    }
+
+  #cuidaTuSaludTitulo {
+    font-size: 20px;
+  }
+
+  #marcasTitulo {
+    width: 100%;
+    height: 150px;
+    background-color: #56c27181;
+    padding-top: 10px;
+    font-size: 13px;
+  }
+
+  #cuidaTuSaludTitulo {
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .imagenCuidaTuSalud {
+    border-radius: 2%;
+    width: 25%;
+  }
+
+  .linkCuidaTuSalud {
+    font-size: 20px;
+  }
+
+  #quienesSomosMenuTabla {
+    font-size: 18px;
+  }
+
+  #quienesSomosMenu {
+    font-size: 20px;
+    height: 200px;
+  }
+
+  .valor {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%; 
+  }
+
+  #tituloContacto {
+    font-size: 25px;
+
+  }
+  
+  iframe {
+    width: 50%;
+    height: 400px;
+  }
+
+  footer {
+    font-size: 15px;
+    height: 200px;
+  }
+
+  table tr {
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    padding-left: 100px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+  
+  #logo {
+    grid-area: logo;
+    width: 80%;
+    padding-left: 0px;
+  }
+}
